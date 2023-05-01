@@ -1,0 +1,58 @@
+{
+  "name": "storybook-docs-themes",
+  "version": "1.0.0",
+  "description": "Set up theme colours of documentation previews in Storybook stories.",
+  "author": "Ferdinand Prantl <prantlf@gmail.com> (http://prantl.tk)",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/prantlf/storybook-docs-themes/blob/master/LICENSE"
+    }
+  ],
+  "homepage": "http://prantlf.github.com/storybook-docs-themes/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prantlf/storybook-docs-themes.git"
+  },
+  "bugs": {
+    "url": "http://github.com/prantlf/storybook-docs-themes/issues"
+  },
+  "files": [
+    "stylesheets"
+  ],
+  "scripts": {
+    "prepare": "esbuild --minify --sourcemap --outfile=stylesheets/vscode-dark-plus.min.css stylesheets/vscode-dark-plus.css",
+    "test": "stylelint stylesheets"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard-scss",
+    "plugins": ["stylelint-prettier"],
+    "rules": {
+      "prettier/prettier": true
+    },
+    "ignoreFiles": [
+      "**/*.map",
+      "**/*.min.css"
+    ],
+    "defaultSeverity": "warning",
+    "cache": true
+  },
+  "devDependencies": {
+    "esbuild": "0.17.18",
+    "prettier": "2.8.8",
+    "stylelint": "15.6.0",
+    "stylelint-config-standard-scss": "9.0.0",
+    "stylelint-prettier": "3.0.0"
+  },
+  "keywords": [
+    "storybook-addons",
+    "storybook-addon",
+    "storybook",
+    "storybookjs",
+    "addon",
+    "theme",
+    "stylesheet",
+    "styles"
+  ]
+}

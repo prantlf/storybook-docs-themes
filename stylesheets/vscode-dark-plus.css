@@ -1,0 +1,69 @@
+/* Set up colours of documentation previews according to the VS Code theme
+   "Dark+", enhanced to the WCAG AAA contrast. Specificity doubled to allow
+   including this stylesheet in preview-head.html.
+ */
+
+/* Background */
+.sbdocs-preview.sbdocs-preview pre.prismjs,
+.sbdocs-preview.sbdocs-preview code.prismjs {
+  background-color: #000;
+}
+
+/* Default text */
+.sbdocs-preview.sbdocs-preview pre,
+.sbdocs-preview.sbdocs-preview code {
+  color: #fff;
+}
+
+/* Tag names, declarator keywords */
+.sbdocs-preview.sbdocs-preview .token.tag,
+.sbdocs-preview.sbdocs-preview .token.keyword {
+  color: #66b8fd; /* original 569cd6 */
+}
+
+/* Module keywords */
+.sbdocs-preview.sbdocs-preview .token.keyword.module {
+  color: #e29adc; /* original c586c0 */
+}
+
+/* Attribute names, CSS property names, variables */
+.sbdocs-preview.sbdocs-preview .token.attr-name,
+.sbdocs-preview.sbdocs-preview .token.property {
+  color: #9cdcfe;
+}
+
+/* Attribute values, CSS color values, strings */
+.sbdocs-preview.sbdocs-preview .token.attr-value,
+.sbdocs-preview.sbdocs-preview .token.string {
+  color: #e6a286; /* original ce9178 */
+}
+
+/* Numbers */
+.sbdocs-preview.sbdocs-preview .token.number {
+  color: #b5cea8;
+}
+
+/* Symbols */
+.sbdocs-preview.sbdocs-preview .token.punctuation {
+  color: #b2b2b2; /* original 808080 */
+}
+
+/* CSS selectors */
+.sbdocs-preview.sbdocs-preview .token.selector {
+  color: #d7ba7d;
+}
+
+/* Function calls */
+.sbdocs-preview.sbdocs-preview .token.function {
+  color: #dcdcaa;
+}
+
+/* Function variables */
+.sbdocs-preview.sbdocs-preview .token.function-variable {
+  color: #4fc1ff;
+}
+
+/*
+  Parentheses #ffd700
+  CSS size values #b5cea8
+ */
