@@ -1,6 +1,6 @@
 {
   "name": "storybook-docs-themes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Set up theme colours of documentation previews in Storybook stories.",
   "author": "Ferdinand Prantl <prantlf@gmail.com> (http://prantl.tk)",
   "license": "MIT",
@@ -27,7 +27,9 @@
   },
   "stylelint": {
     "extends": "stylelint-config-standard-scss",
-    "plugins": ["stylelint-prettier"],
+    "plugins": [
+      "stylelint-prettier"
+    ],
     "rules": {
       "prettier/prettier": true
     },
