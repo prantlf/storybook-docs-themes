@@ -19,7 +19,7 @@ Install the stylesheets using `npm`:
 Copy the stylesheets to the output directory in `.storybook/main.js`:
 
 ```js
-module.exports = {
+export default {
   staticDirs: [
     { from: '../node_modules/storybook-docs-themes/stylesheets', to: 'themes' }
   ]
@@ -31,6 +31,8 @@ Load the selected stylesheet to [Storybook] stories in `.storybook/preview-head.
 ```html
 <link rel="stylesheet" href="themes/vscode-dark-plus.min.css">
 ```
+
+See also an [example of a Storybook project using this stylesheet].
 
 ## Usage via CDN
 
@@ -65,3 +67,4 @@ Licensed under the [MIT License].
 
 [MIT License]: http://en.wikipedia.org/wiki/MIT_License
 [Storybook]: https://storybook.js.org/
+[example of a Storybook project using this stylesheet]: ./examples/sb8

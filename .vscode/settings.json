@@ -4,5 +4,9 @@
     "**/.DS_Store": true,
     "**/*.map": true,
     "**/*.min.*": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/storybook-static": true
   }
 }
