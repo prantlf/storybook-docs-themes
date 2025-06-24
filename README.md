@@ -32,7 +32,10 @@ Load the selected stylesheet to [Storybook] stories in `.storybook/preview-head.
 <link rel="stylesheet" href="themes/vscode-dark-plus.min.css">
 ```
 
-See also an [example of a Storybook project using this stylesheet].
+See also examples of Storybook projects using this stylesheet:
+
+* [Storybook 8]
+* [Storybook 9]
 
 ## Usage via CDN
 
@@ -67,4 +70,5 @@ Licensed under the [MIT License].
 
 [MIT License]: http://en.wikipedia.org/wiki/MIT_License
 [Storybook]: https://storybook.js.org/
-[example of a Storybook project using this stylesheet]: ./examples/sb8
+[Storybook 8]: ./examples/sb8
+[Storybook 9]: ./examples/sb9

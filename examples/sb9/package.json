@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "storybook dev -p 6006",
+    "test": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/html-vite": "^9.0.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "storybook": "^9.0.13",
+    "storybook-docs-themes": "file:../..",
+    "storybook-multilevel-sort": "^2.0.1",
+    "@storybook/addon-docs": "^9.0.13"
+  }
+}

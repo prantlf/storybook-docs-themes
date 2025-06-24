@@ -1,5 +1,6 @@
 .DS_Store
 *.map
 *.min.*
+.stylelintcache
 node_modules
 storybook-static
