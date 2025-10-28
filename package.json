@@ -1,6 +1,6 @@
 {
   "name": "storybook-docs-themes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Set up theme colours of documentation previews in Storybook stories.",
   "author": "Ferdinand Prantl <prantlf@gmail.com> (http://prantl.tk)",
   "license": "MIT",
