@@ -34,8 +34,9 @@ Load the selected stylesheet to [Storybook] stories in `.storybook/preview-head.
 
 See also examples of Storybook projects using this stylesheet:
 
-* [Storybook 8]
+* [Storybook 10]
 * [Storybook 9]
+* [Storybook 8]
 
 ## Usage via CDN
 
@@ -72,3 +73,4 @@ Licensed under the [MIT License].
 [Storybook]: https://storybook.js.org/
 [Storybook 8]: ./examples/sb8
 [Storybook 9]: ./examples/sb9
+[Storybook 10]: ./examples/sb10
