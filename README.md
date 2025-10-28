@@ -43,7 +43,7 @@ Load the selected stylesheet to the stories in `.storybook/preview-head.html`:
 
 ```html
 <link rel="stylesheet"
-  href="https://unpkg.com/storybook-docs-themes@1.0.0/stylesheets/vscode-dark-plus.min.css">
+  href="https://unpkg.com/storybook-docs-themes@1.0.2/stylesheets/vscode-dark-plus.min.css">
 ```
 
 ## Themes
