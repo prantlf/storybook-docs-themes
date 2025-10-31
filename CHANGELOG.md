@@ -1,5 +1,11 @@
 # Changes
 
+## [1.1.0](https://github.com/prantlf/storybook-docs-themes/compare/v1.0.2...v1.1.0) (2025-10-31)
+
+### Features
+
+* Add example for Storybook 10 ([604b48e](https://github.com/prantlf/storybook-docs-themes/commit/604b48e1eb916cb9294b83a36ed97dce585bae49))
+
 ## [1.0.2](https://github.com/prantlf/storybook-docs-themes/compare/v1.0.1...v1.0.2) (2025-10-28)
 
 ### Bug Fixes
